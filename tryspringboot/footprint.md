@@ -5,6 +5,14 @@
 * [スターターライブラリ](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#using-boot-starter)
 * [スターターライブラリのソース](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
 * [Spring-Data-JPAのガイド](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Spring-Data-JPAリファレンス](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+* [Understanding REST](https://spring.io/understanding/REST)
+* [RESTサービスガイド](https://spring.io/guides/gs/rest-service/)
+* [JPAを利用したRESTfullサービス](https://spring.io/guides/gs/accessing-data-rest/)
+* [Understanding HATEOAS](https://spring.io/understanding/HATEOAS)
+* [HAL - Hypertext Application Language仕様](http://stateless.co/hal_specification.html)
+* [REST HATEOASガイド](https://spring.io/guides/gs/rest-hateoas/)
+* [SpringBootとReactによるRESTガイド](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
 
 
 ビルドして実行
@@ -97,6 +105,13 @@ The MockMvc comes from Spring Test and allows you, via a set of convenient build
 
 * DI対象。宣言されたインタフェース又はクラスの実装クラスを生成してDIする。
 * 生成ロジックは `@Configuration` と `@Bean` で指定して実装可能。
+* メソッド、フィールド
+
+## @Component
+
+* SpringBootが見つけてインスタンス化する。
+
+
 
 
 # Actuator
@@ -112,10 +127,18 @@ The MockMvc comes from Spring Test and allows you, via a set of convenient build
 * 
 
 
+# REST コントローラ
+
+Springの [RESTサービスのガイド](https://spring.io/guides/gs/rest-service/)
+
+```
+A key difference between a traditional MVC controller and the RESTful web service controller above is the way that the HTTP response body is created. Rather than relying on a view technology to perform server-side rendering of the greeting data to HTML, this RESTful web service controller simply populates and returns a Greeting object. The object data will be written directly to the HTTP response as JSON.
+```
+
 # notes
 
 * [Springトップ](https://spring.io/)
 * [さまざまなプロジェクト](https://spring.io/projects)
 * [ガイド](https://spring.io/guides)
 * [リファレンスガイド](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/)
-* [SpringBootとReactによるRESTfulサービス](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
+* [MavenとEclipseによるSpringBootRESTサービス](https://www.ibm.com/developerworks/jp/java/library/j-spring-boot-basics-perry/)
