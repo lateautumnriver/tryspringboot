@@ -2,6 +2,9 @@
 
 * [Springboot](https://spring.io/guides/gs/spring-boot/) はSpringbootのスタートガイド
 * [アプリケーションイニシアライザ](https://start.spring.io/) は最初のアプリケーション構築までのパッケージを作成するのに便利。
+* [スターターライブラリ](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#using-boot-starter)
+* [スターターライブラリのソース](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
+
 
 ビルドして実行
 
@@ -62,10 +65,55 @@ Greetings from Spring Boot!
 ```
 
 
+# アノテーション
+
+## @SpringBootApplication
+
+* `@Configuration` tags the class as a source of bean definitions for the application context.
+* `@EnableAutoConfiguration` tells Spring Boot to start adding beans based on classpath settings, other beans, and various property settings.
+* `@EnableWebMvc`: Spring Boot adds it automatically when it sees spring-webmvc on the classpath.
+* `@ComponentScan` tells Spring to look for other components, configurations, and services in the `jp.lateautumnriver.tryspringboot` package, allowing it to find the controllers.
+
+## @Bean
+
+`@Configuration` クラスで `@Bean` が宣言されているメソッドは実行時に `SpringBoot` によって実行される。
+
+## @AutoConfigureMockMvc
+
+The use of the @AutoConfigureMockMvc together with @SpringBootTest to inject a MockMvc instance.
+
+```
+The MockMvc comes from Spring Test and allows you, via a set of convenient builder classes, to send HTTP requests into the DispatcherServlet and make assertions about the result.
+```
+
+## @SpringBootTest
+
+## @LocalServerPort
+
+実際のポート
+
+## @Autowired
+
+* DI対象。宣言されたインタフェース又はクラスの実装クラスを生成してDIする。
+* 生成ロジックは `@Configuration` と `@Bean` で指定して実装可能。
+
+
+# Actuator
+
+* アプリケーションの管理系モジュール。ヘルスチェックなどに利用できる。
+* `application.properties` に利用可能な属性と公開する属性を定義できる。
+  * ローカルで動かしているなら [http://localhost:8081/actuator](http://localhost:8081/actuator)
+  * エンドポイントのドキュメントは [ここ](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#production-ready-endpoints)
+
+# JAR Support
+
+* `SpringBoot Loader` モジュールによって `jar` を生成でき、Tomcatが内包されている。
+* 
+
 
 # notes
 
 * [Springトップ](https://spring.io/)
 * [さまざまなプロジェクト](https://spring.io/projects)
 * [ガイド](https://spring.io/guides)
-
+* [リファレンスガイド](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/)
