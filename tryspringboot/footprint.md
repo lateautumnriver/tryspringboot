@@ -1,7 +1,7 @@
 # footprint
 
-* [Springboot](https://spring.io/guides/gs/spring-boot/) はSpringbootのスタートガイド
-* [アプリケーションイニシアライザ](https://start.spring.io/) は最初のアプリケーション構築までのパッケージを作成するのに便利。
+* [SpringBootスタートガイド](https://spring.io/guides/gs/spring-boot/)
+* [アプリケーションイニシアライザ](https://start.spring.io/) - 最初のアプリケーション構築までのプロジェクトを作成。
 * [スターターライブラリ](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#using-boot-starter)
 * [スターターライブラリのソース](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
 
@@ -117,3 +117,4 @@ The MockMvc comes from Spring Test and allows you, via a set of convenient build
 * [さまざまなプロジェクト](https://spring.io/projects)
 * [ガイド](https://spring.io/guides)
 * [リファレンスガイド](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/)
+* [SpringBootとReactによるRESTfulサービス](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
