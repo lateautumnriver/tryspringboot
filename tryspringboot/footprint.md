@@ -4,6 +4,7 @@
 * [アプリケーションイニシアライザ](https://start.spring.io/) - 最初のアプリケーション構築までのプロジェクトを作成。
 * [スターターライブラリ](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/#using-boot-starter)
 * [スターターライブラリのソース](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
+* [Spring-Data-JPAのガイド](https://spring.io/guides/gs/accessing-data-jpa/)
 
 
 ビルドして実行
