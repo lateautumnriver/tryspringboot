@@ -1,4 +1,4 @@
-package jp.lateautumnriver.tryspringboot.controller;
+package jp.lateautumnriver.tryspringboot.hello;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

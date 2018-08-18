@@ -1,4 +1,4 @@
-package jp.lateautumnriver.tryspringboot.controller;
+package jp.lateautumnriver.tryspringboot.hello;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
