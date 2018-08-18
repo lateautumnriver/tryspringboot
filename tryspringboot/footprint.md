@@ -141,4 +141,7 @@ A key difference between a traditional MVC controller and the RESTful web servic
 * [さまざまなプロジェクト](https://spring.io/projects)
 * [ガイド](https://spring.io/guides)
 * [リファレンスガイド](https://docs.spring.io/spring-boot/docs/2.0.3.RELEASE/reference/htmlsingle/)
-* [MavenとEclipseによるSpringBootRESTサービス](https://www.ibm.com/developerworks/jp/java/library/j-spring-boot-basics-perry/)
+* [IBM Developer Works: MavenとEclipseによるSpringBootRESTサービス](https://www.ibm.com/developerworks/jp/java/library/j-spring-boot-basics-perry/)
+* [SpringBoot Common Application Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
+* [Spring-data-elasticsearchドキュメント](https://docs.spring.io/spring-data/elasticsearch/docs/3.0.9.RELEASE/reference/html/)
+* [Spring-data-elasticsearchプロジェクトトップ](https://projects.spring.io/spring-data-elasticsearch/)
